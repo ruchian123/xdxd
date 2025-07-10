@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agencia de Viajes - Explora el Mundo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Explora el Mundo</h1>
+        <nav>
+            <ul>
+                <li><a href="#destinos">Destinos</a></li>
+                <li><a href="#paquetes">Paquetes</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <h2>Encuentra tu próximo destino soñado</h2>
+        <p>Ofertas exclusivas en viajes, tours y paquetes todo incluido.</p>
+        <a href="#paquetes" class="btn">Ver Paquetes</a>
+    </section>
+    <section id="destinos">
+        <h2>Destinos Populares</h2>
+        <div class="destinos-grid">
+            <div class="destino">
+                <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=400&q=80" alt="París">
+                <h3>París</h3>
+                <p>La ciudad del amor te espera con su arquitectura, cultura y gastronomía inigualable.</p>
+            </div>
+            <div class="destino">
+                <img src="https://images.unsplash.com/photo-1465156799763-2c087c332922?auto=format&fit=crop&w=400&q=80" alt="Cancún">
+                <h3>Cancún</h3>
+                <p>Playas paradisíacas, aguas cristalinas y diversión sin límites en el Caribe mexicano.</p>
+            </div>
+            <div class="destino">
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=400&q=80" alt="Tokio">
+                <h3>Tokio</h3>
+                <p>La combinación perfecta entre tradición y modernidad. ¡Descubre Asia!</p>
+            </div>
+        </div>
+    </section>
+    <section id="paquetes">
+        <h2>Paquetes Destacados</h2>
+        <div class="paquetes-grid">
+            <div class="paquete">
+                <h3>Europa 15 días</h3>
+                <ul>
+                    <li>Visita: París, Roma, Madrid y Londres</li>
+                    <li>Vuelos incluidos</li>
+                    <li>Hoteles 4 estrellas</li>
+                    <li>Desde $2,499 USD</li>
+                </ul>
+                <a href="#contacto" class="btn-sec">Reservar</a>
+            </div>
+            <div class="paquete">
+                <h3>Caribe Todo Incluido</h3>
+                <ul>
+                    <li>7 noches en Cancún</li>
+                    <li>Alimentos y bebidas incluidos</li>
+                    <li>Excursiones a cenotes y ruinas</li>
+                    <li>Desde $999 USD</li>
+                </ul>
+                <a href="#contacto" class="btn-sec">Reservar</a>
+            </div>
+            <div class="paquete">
+                <h3>Asia Express</h3>
+                <ul>
+                    <li>Tokio, Seúl y Shanghái en 10 días</li>
+                    <li>Guía en español</li>
+                    <li>Desayunos incluidos</li>
+                    <li>Desde $2,199 USD</li>
+                </ul>
+                <a href="#contacto" class="btn-sec">Reservar</a>
+            </div>
+        </div>
+    </section>
+    <section id="contacto">
+        <h2>Contáctanos</h2>
+        <form>
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Correo electrónico</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2025 Explora el Mundo - Agencia de Viajes. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
